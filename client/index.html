@@ -1,0 +1,45 @@
+<html ng-app="app">
+    <head>
+        
+        <meta charset="utf-8"/>
+        
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Bungee|Fira+Sans|Righteous|Cantarell" rel="stylesheet"/>
+        
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+        
+        <!-- Libraries -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+        
+        <!-- My Styles -->
+        <link rel="stylesheet" href="/client/styles/general.css" />
+        <link rel="stylesheet" href="/client/styles/landing.css" />
+        <link rel="stylesheet" href="/client/styles/buttons.css" />
+        <link rel="stylesheet" href="/client/styles/main.css" />
+        <link rel="stylesheet" href="/client/styles/statuses.css" />
+        
+    </head>
+    
+    <body>
+        <div ui-view></div>
+    </body>
+    
+    <!-- Libs -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0-rc.2/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.js"></script>
+    
+    <!-- App -->
+    <script src="/client/app.js"></script>
+    
+    <!-- Directives -->
+    <script src="/client/components/shared/directives/top-nav/top-nav.js"> </script>
+    
+    <!-- Services -->
+    <script src="/client/components/shared/services/user-service.js"> </script>
+    
+    <!-- Controllers -->
+    <script src="/client/components/home/home-controller.js"></script>
+    <script src="/client/components/main/main-controller.js"></script>
+    <script src="/client/components/profile/profile-controller.js"></script>
+    
+</html>

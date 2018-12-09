@@ -1,0 +1,21 @@
+/* Global Styles */
+body {
+    background-color: #ef785a;
+    font-family: 'Cantarell', sans-serif;
+    padding-top: 50px;
+}
+
+input,
+textarea{
+    color: #000;
+}
+
+.section-title {
+    font-family: 'Righteous'
+}
+
+
+/* margin-overwrites */
+.mt10 {
+    margin-top: 10px !important;
+}

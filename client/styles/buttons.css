@@ -1,0 +1,21 @@
+/* Buttons */
+
+.cta-button{
+    min-width: 100px;
+    height: 50px;
+    background-color: #ef785a;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-top: 20px;
+    font-family: 'Bungee';
+}
+
+.cta-button:hover{
+    background-color: #e94c28;
+}
+
+.add-user-right-button,
+.decline-user-right-button{
+   background-color: #ef785a;
+   border: none;
+}

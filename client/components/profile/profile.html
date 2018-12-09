@@ -1,0 +1,62 @@
+<div>
+    
+    <h1 class="section-title text-center">Modifier mon profil</h1>
+    <div class="  text-center">
+        <div class="landing-panel center-block">
+            <h3 class="section-title">Modifier</h3>
+            <input type="text" ng-model="modifyUser.id" hidden="true"/>
+            <h3>Entrez Un Nom D'Utilisateur</h3>
+            <input type="text" ng-model="modifyUser.username"/>
+        
+            <h3>Entrer Votre Email</h3>
+            <input type="email" ng-model="modifyUser.email"/>
+            <h3>Entrer Votre Age</h3>
+            <input type="age" ng-model="modifyUser.age"/>
+
+            <h3>Sélectionnez Votre Origine</h3>
+            <select ng-model="modifyUser.origin">
+              <option value="Alien">Alien</option>
+              <option value="Daleks">Daleks</option>
+              <option value="Kzinti">Kzinti</option>
+              <option value="Martien">Martien</option>
+              <option value="Protoss">Protoss</option>
+              <option value="Vogon">Vogon</option>
+            </select>
+
+            <h3>Sélectionnez Votre Famille</h3>
+            <select ng-model="modifyUser.famille">
+              <option value="Xénomorphe">Xénomorphe</option>
+              <option value="Ewoks">Ewoks</option>
+              <option value="Klingons">Klingons</option>
+              <option value="Yautja">Yautja</option>
+              <option value="Vulcains">Vulcains</option>
+              <option value="Wookiees">Wookiees</option>
+            </select>
+
+            <h3>Sélectionnez Votre Race</h3>
+            <select ng-model="modifyUser.race">
+              <option value="METAPHORES">METAPHORES</option>
+              <option value="EBE">EBE</option>
+              <option value="NORDIQUES">NORDIQUES</option>
+              <option value="ANCIENTS">ANCIENTS</option>
+              <option value="HYBRIDES">HYBRIDES</option>
+            </select>
+
+            <h3>Sélectionnez Votre Nourriture</h3>
+            <select ng-model="modifyUser.nourriture">
+              <option value="Pierre">Pierre</option>
+              <option value="Sable">Sable</option>
+              <option value="Bois">Bois</option>
+            </select>
+        
+            <h3>Sélectionnez Votre Mot De Passe</h3>
+            <input type="password" ng-model="modifyUser.user_password" /> <br>
+        
+            <button class="cta-button" ng-click="modifyingUser(modifyUser)">Inscription</button> <br/>
+            <button class="cta-button" ng-click="retour()">Retour</button>
+        </div>
+        
+    </div>
+    
+</div>
+
